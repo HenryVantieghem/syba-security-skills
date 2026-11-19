@@ -1,0 +1,11 @@
+{
+  "name": "syba-security",
+  "displayName": "SYBA Security Skills",
+  "version": "1.0.0",
+  "description": "SYBA cybersecurity skills for coding agents: link and email phishing checks, prompt-injection guard, paste-to-run (ClickFix) guard, secret hygiene, dependency typosquat check and a plain-English security review.",
+  "author": { "name": "SYBA", "url": "https://sybainsurance.com" },
+  "homepage": "https://github.com/HenryVantieghem/syba-security-skills",
+  "repository": "https://github.com/HenryVantieghem/syba-security-skills",
+  "license": "MIT",
+  "keywords": ["security", "phishing", "prompt-injection", "clickfix", "secrets", "typosquatting", "security-review", "syba"]
+}

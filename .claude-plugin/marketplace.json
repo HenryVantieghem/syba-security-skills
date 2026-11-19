@@ -1,0 +1,13 @@
+{
+  "name": "syba-security-skills",
+  "description": "Open-source cybersecurity skills for coding agents, built by SYBA.",
+  "owner": { "name": "SYBA", "url": "https://sybainsurance.com" },
+  "plugins": [
+    {
+      "name": "syba-security",
+      "source": "./",
+      "description": "Seven SYBA security skills: link check, email check, prompt-injection guard, paste-to-run guard, secret hygiene, dependency trust, security review.",
+      "category": "security"
+    }
+  ]
+}

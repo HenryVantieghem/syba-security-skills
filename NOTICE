@@ -1,0 +1,23 @@
+SYBA Security Skills
+Copyright (c) 2026 SYBA. Licensed under the MIT License (see LICENSE).
+
+The detectors in engine/ (and their copies in skills/*/scripts/engine/) are taken
+from the SYBA Shield browser extension and the SYBA desktop app, both written by SYBA.
+The brand lists, safe-domain list, abused-TLD lists and popular-package lists
+(skills/syba-dependency-trust/scripts/data/) were compiled by SYBA from public
+knowledge and are released under the same MIT License.
+
+Third-party data
+----------------
+This repository bundles no third-party datasets.
+
+The SYBA Shield extension also ships a 25,000-host phishing blocklist built from
+PhishTank (Cisco Talos) and Phishing.Database (MIT), and phishing-kit rules from
+phish.report/IOK (ODbL 1.0). They are deliberately NOT included here:
+  - The blocklist mixes PhishTank and Phishing.Database hosts without per-host
+    source tags. PhishTank's published terms permit commercial and non-commercial
+    use of its API but do not grant redistribution of its data, so the merged list
+    cannot be republished under an open licence.
+  - The IOK rules evaluate rendered page DOM, which none of these skills read.
+If you add third-party data, keep it in its own folder with its licence and an
+attribution line in this file.

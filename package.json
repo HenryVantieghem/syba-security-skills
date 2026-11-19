@@ -1,0 +1,14 @@
+{
+  "name": "syba-security-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Open-source cybersecurity skills for coding agents, built by SYBA.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node scripts/sync-engine.mjs --check && node --test test/",
+    "sync": "node scripts/sync-engine.mjs",
+    "scan": "node skills/syba-secret-hygiene/scripts/secret-scan.mjs . && node skills/syba-secret-hygiene/scripts/secret-scan.mjs --history"
+  }
+}

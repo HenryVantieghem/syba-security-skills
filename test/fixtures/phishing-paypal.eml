@@ -1,0 +1,22 @@
+From: "PayPal Service" <security@paypal-verify.gq>
+To: jane@example.com
+Subject: =?utf-8?Q?Your_account_has_been_limited?=
+Date: Tue, 17 Nov 2026 08:14:02 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset=utf-8
+
+We noticed unusual activity. Verify your account within 24 hours or it will be suspended.
+https://www.paypal.com/signin
+
+--b1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>Dear customer,</p><p>We noticed unusual activity. Please <b>verify your=
+ account</b> within 24 hours or it will be suspended.</p>
+<p><a href=3D"http://paypa1-secure-login.com/verify?id=3D88">www.paypal.com/signin</a></p>
+<p>PayPal Security Team</p></body></html>
+--b1--
