@@ -7,7 +7,7 @@
   "type": "module",
   "engines": { "node": ">=18" },
   "scripts": {
-    "test": "node scripts/sync-engine.mjs --check && node --test test/",
+    "test": "node scripts/sync-engine.mjs --check && node --test test/*.test.mjs",
     "sync": "node scripts/sync-engine.mjs",
     "scan": "node skills/syba-secret-hygiene/scripts/secret-scan.mjs . && node skills/syba-secret-hygiene/scripts/secret-scan.mjs --history"
   }
